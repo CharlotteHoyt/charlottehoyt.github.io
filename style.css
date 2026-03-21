@@ -106,7 +106,7 @@ html {
   }
   #home {
     background-color: #bae8e8;
-    color: #001e1d;
+    color: #272343;
   }
 }
 
@@ -165,7 +165,7 @@ a {
 
 /*Style "Section Header"*/
 .sectionHeader {
-  color: #2d334a;
+  color: #272343;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -174,7 +174,7 @@ a {
 
 /*Style "Centered Section Header"*/
 .centeredSectionHeader {
-  color: #2d334a;
+  color: #272343;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -402,7 +402,7 @@ button:hover {
 /*Footer*/
 .footer {
     background-color: #bae8e8;
-    color: #2d334a;
+    color: #272343;
     width: 100%;
     margin: 0px;
     padding: 20px 0px;
@@ -416,18 +416,80 @@ button:hover {
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
+    color: #272343;
 }
 
 /*Footer Logos/Links*/
 .footer i {
     font-size: 38px;
-    color: #2d334a;
+    color: #272343;
     margin: 0px 10px;
 }
 
 .footer i:hover {
     font-size: 38px;
     opacity: 75%;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 325px;
+  background-color: #bae8e8;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card img {
+  /*width: 100%;*/
+  width: 75%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 15px;
+  padding-top: 24px;
+}
+
+.cardContent {
+  padding: 16px;
+  padding: 24px;
+}
+
+.projectTitle {
+  /*font-size: 28px;*/
+  margin-bottom: 8px;
+
+  color: #2d334a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16pt;
+}
+
+.cardContent p {
+  color: #2d334a;
+}
+
+.tag {
+  background-color: #ffd803;
+  color: #272343;
+  padding: 10px 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+
+  display: inline-block;
+  width: max-content;
+
+  margin-bottom: 5px;
 }
 
 /*Style Projects to Be Responsive*/
