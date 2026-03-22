@@ -360,38 +360,6 @@ button:hover {
   height: 300px;
 }
 
-/*Style "Coding Project" Section*/
-.codingProject {
-  height: auto;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*Style "Coding Project Image"*/
-.codingProjectImage {
-  width: 15%;
-  height: auto;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/*Style Project Images*/
-.codingProjectImage img {
-  width: 75%;
-  height: auto;
-}
-
-/*Style Coding Project Info Sections*/
-.codingProjectInfo {
-  width: 85%;
-  height: auto;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /*Style "Full Length" Text*/
 .wideText {
   width: 70%;
@@ -446,7 +414,6 @@ button:hover {
 }
 
 .card img {
-  /*width: 100%;*/
   width: 75%;
   height: auto;
   margin-right: auto;
@@ -462,9 +429,7 @@ button:hover {
 }
 
 .projectTitle {
-  /*font-size: 28px;*/
   margin-bottom: 8px;
-
   color: #2d334a;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -485,10 +450,8 @@ button:hover {
   font-weight: 800;
   font-style: normal;
   font-size: 14px;
-
   display: inline-block;
   width: max-content;
-
   margin-bottom: 5px;
 }
 
