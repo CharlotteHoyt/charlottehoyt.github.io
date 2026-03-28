@@ -12,7 +12,10 @@ html {
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 1300px;
+
 }
+
 
 /*Style Everything*/
 * {
