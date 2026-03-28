@@ -403,18 +403,6 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-  /*For Masonry Grid*/
-  /*columns: 18rem;
-  counter-reset: grid;*/
-
-  /*display: grid;
-  grid-template-columns: refill(autofill, minmax(200px, 1fr));
-  grid-template-rows: masonry;*/
-
-  /*display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-rows: masonry;*/
 }
 
 .card {
@@ -423,16 +411,7 @@ button:hover {
   border-radius: 20px;
   overflow: hidden;
   margin: 20px;
-
-  /*For Masonry Grid*/
-  /*break-inside: avoid;*/
 }
-
-  /*For Masonry Grid*/
-/*.card::before {
-  counter-increment: grid;
-  content: counter-grid;
-}*/
 
 .card img {
   width: 75%;
